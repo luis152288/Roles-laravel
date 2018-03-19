@@ -34,7 +34,7 @@ class PermissionsTableSeeder extends Seeder
         Permission::create([
             'name'          => 'Eliminar usuario',
             'slug'          => 'users.destroy',
-            'description'   => 'Podría eliminar cualquier usuario del sistema',      
+            'description'   => 'Eliminar cualquier usuario del sistema',
         ]);
 
 
